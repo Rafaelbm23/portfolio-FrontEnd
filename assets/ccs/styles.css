@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* Estilo para botones de redes*/
+li.list-group-item{
+    background-color: transparent;
+    border: transparent;
+}
+
+i.fa-brands,i.fa-solid{
+    color: #ffffff;
+}
+
+i.fa-brands:hover{
+    color: #1335f1;
+}
+
