@@ -12,6 +12,7 @@
     <script src="https://kit.fontawesome.com/f4c6e19342.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Barra de Navegacion -->
     <nav class="navbar bg-primary">
         <div class="container-fluid">
             <img src="/assets/img/logo.png" alt="Logo">
@@ -19,11 +20,140 @@
                 <li class="list-group-item"><i class="fa-brands fa-facebook fa-2xl"></i></li>
                 <li class="list-group-item"><i class="fa-brands fa-instagram fa-2xl"></i></li>
                 <li class="list-group-item"><i class="fa-brands fa-linkedin-in fa-2xl"></i></li>
-                <li class="list-group-item"><i class="fa-solid fa-user fa-2xl"></i></li>
+                <li class="list-group-item">
+                    <!-- Icono de tipo boton para la ventana modal -->
+                    <i class="fa-solid fa-user fa-2xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"> </i>
+                </li>
             </ul>
-
+            <!-- Ventana Modal para el login-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Inicio de Sesion</h1>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3 row"> 
+                                <label for="inputemail" class="col-sm-2 col-form-label">Email:</label>
+                                <div class="col-sm-10">
+                                  <input type="email" class="form-control" id="inputemail" placeholder="name@example.com">
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="inputPassword" class="col-sm-2 col-form-label">Password:</label>
+                                <div class="col-sm-10">
+                                  <input type="password" class="form-control" id="inputPassword">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Iniciar Sesion</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </nav>
+
+    <header>
+        <!--Banner de la pagina -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/assets/img/banner1.png" class="d-block w-100" alt="Codigo fuente">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/banner2.png" class="d-block w-100" alt="Codigo fuente">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/banner3.png" class="d-block w-100" alt="Codigo fuente">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <figure>
+            <img src="/assets/img/Foto_perfil.png" alt="Foto Perfil" class="img-fluid rounded-circle" id="foto_perfil">
+        </figure>
+    </header>
+
+    <!-- Acerca de -->
+    <section>
+        <div class="container-fluid acerca_de">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Rafael Bastidas</h3>
+                    <H4>T.S.U Informatica</H4>
+                    <H4>Full Stack Developer Junior</H4>
+                </div>
+                <div class="col-md-9">
+                    <span>
+                    <h2>Acerca de</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis vero minus molestias nisi magni eius expedita similique consequuntur quidem quasi. Temporibus esse voluptates aspernatur blanditiis quibusdam eum quaerat debitis ipsam.</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia laboral -->
+    <section id="Experiencia">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Experiencia Laboral</h2>
+                    <ul>
+                        <li>
+                            <h4 class="li-lineal">Trabajo 1 - </h4>
+                            <h5 class="li-lineal">años</h5>
+                        </li>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, qui ipsa sit incidunt atque, neque, ad rem libero magnam minus nobis architecto blanditiis fugit officia molestias molestiae eligendi vel consectetur.</p>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h4 class="li-lineal">Trabajo 2 - </h4>
+                            <h5 class="li-lineal">años</h5>
+                        </li>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, qui ipsa sit incidunt atque, neque, ad rem libero magnam minus nobis architecto blanditiis fugit officia molestias molestiae eligendi vel consectetur.</p>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h4 class="li-lineal">Trabajo 3 - </h4>
+                            <h5 class="li-lineal">años</h5>
+                        </li>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, qui ipsa sit incidunt atque, neque, ad rem libero magnam minus nobis architecto blanditiis fugit officia molestias molestiae eligendi vel consectetur.</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educacion -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Educacion</h2>
+                    <ul>
+                        <li>
+                            <h4>Instituto 1</h4>
+                            <p>Titulo</p>
+                            <p class="li-lineal">Fecha inicio -</p>
+                            <p class="li-lineal">Fecha fin</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!-- Java Script de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
 </body>

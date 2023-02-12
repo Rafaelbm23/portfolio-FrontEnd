@@ -14,3 +14,27 @@ i.fa-brands:hover{
     color: #1335f1;
 }
 
+/* Estilo para el banner*/
+img.d-block.w-100 {
+    height: 50em;
+}
+
+/*Estilo de acerca de*/
+.acerca_de{
+    padding: 1em;
+}
+#foto_perfil{
+    position: relative;
+    width: 15%;
+    box-shadow: 3px 3px 10px #808080;
+    margin-top: -10em;
+    margin-left: 5em;
+}
+
+/*Estilos seccion Experiencia */
+#Experiencia{
+    padding: 1em;
+}
+.li-lineal{
+    display: inline;
+}
