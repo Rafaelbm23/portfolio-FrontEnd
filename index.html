@@ -17,9 +17,9 @@
         <div class="container-fluid">
             <img src="/assets/img/logo.png" alt="Logo">
             <ul class="list-group list-group-horizontal">
-                <li class="list-group-item"><i class="fa-brands fa-facebook fa-2xl"></i></li>
-                <li class="list-group-item"><i class="fa-brands fa-instagram fa-2xl"></i></li>
-                <li class="list-group-item"><i class="fa-brands fa-linkedin-in fa-2xl"></i></li>
+                <li class="list-group-item"><a href="https://www.facebook.com/RaFaBaS" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+                <li class="list-group-item"><a href="" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+                <li class="list-group-item"><a href="https://www.linkedin.com/in/rafael-bastidas-7a8585143/" target="_blank"><i class="fa-brands fa-linkedin-in fa-2xl"></i></a></li>
                 <li class="list-group-item">
                     <!-- Icono de tipo boton para la ventana modal -->
                     <i class="fa-solid fa-user fa-2xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"> </i>
@@ -56,8 +56,9 @@
         </div>
     </nav>
 
-    <header>
-        <!--Banner de la pagina -->
+    <!--Banner de la pagina -->
+    <section id="banner">
+        <!--Carrucel de imagenes -->
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -79,21 +80,30 @@
               <span class="visually-hidden">Next</span>
             </button>
         </div>
+        <!--Foto Perfil e informacion-->
         <figure>
             <img src="/assets/img/Foto_perfil.png" alt="Foto Perfil" class="img-fluid rounded-circle" id="foto_perfil">
         </figure>
-    </header>
-
-    <!-- Acerca de -->
-    <section>
         <div class="container-fluid acerca_de">
             <div class="row">
                 <div class="col-md-3">
                     <h3>Rafael Bastidas</h3>
-                    <H4>T.S.U Informatica</H4>
-                    <H4>Full Stack Developer Junior</H4>
+                    <H5>T.S.U Informatica</H5>
+                    <H5>Full Stack Developer Junior</H5>
                 </div>
                 <div class="col-md-9">
+                    <h5>La Plata, Buenos Aires Argentina</h5>
+                    <a href="https://www.linkedin.com/in/rafael-bastidas-7a8585143/" target="_blank"> Informacion de contacto</a> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Acerca de -->
+    <section id="acerca_de">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
                     <span>
                     <h2>Acerca de</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis vero minus molestias nisi magni eius expedita similique consequuntur quidem quasi. Temporibus esse voluptates aspernatur blanditiis quibusdam eum quaerat debitis ipsam.</p>
@@ -104,7 +114,7 @@
     </section>
 
     <!-- Experiencia laboral -->
-    <section id="Experiencia">
+    <section id="experiencia">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
@@ -136,7 +146,7 @@
     </section>
 
     <!-- Educacion -->
-    <section>
+    <section id="educacion">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">

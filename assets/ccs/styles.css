@@ -1,5 +1,18 @@
 @charset "utf-8";
 
+/*Estilo para el body*/
+body {
+    width: 90%; 
+    margin: 1em auto !important;
+    background-color: #f3f2ef !important;
+}
+
+section#banner, #acerca_de, #experiencia, #educacion{
+    background-color: #ffffff;
+    margin-top: 0.5em;
+    border-radius: 1.5em;
+}
+
 /* Estilo para botones de redes*/
 li.list-group-item{
     background-color: transparent;
@@ -20,9 +33,6 @@ img.d-block.w-100 {
 }
 
 /*Estilo de acerca de*/
-.acerca_de{
-    padding: 1em;
-}
 #foto_perfil{
     position: relative;
     width: 15%;
@@ -32,9 +42,6 @@ img.d-block.w-100 {
 }
 
 /*Estilos seccion Experiencia */
-#Experiencia{
-    padding: 1em;
-}
 .li-lineal{
     display: inline;
 }
